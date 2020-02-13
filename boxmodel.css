@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+
+.topnav {
+	display: flex;
+	overflow: hidden;
+	margin-top: 15px;
+	background-color: #333;
+}
+
+.topnav a {
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+#Link-right {
+	margin-left: auto;
+}
+
+.header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+.footer {
+	padding: 20px;
+	text-align: center;
+	background:  #ddd;
+	margin-top: 20px;
+}
+
+.row {
+	display: flex;
+}
+
+.leftcolumn {
+	width: 75%;
+}
+
+.fakeimg {
+	background-color: #aaa;
+
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.rightcolumn {
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+}
+
+.header {
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:100%;
+    }
+    .header:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.1);
+    }
+    h1 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    overflow:hidden;
+    }
+
+.rightcolumn {
+	-webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:40%;
+    }
+
+#one {
+	-webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+}
+
+#two {
+	-webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    }
+
+#three {
+	-webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+}
+
+ #one:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.1);
+    }
+#two:hover {
+	-webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.1);
+}
+#three:hover {
+	-webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.1);
+}
+    h1 {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    overflow:hidden;
+
+}
