@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model</title>
+	<link rel="stylesheet" type="text/css" href="boxmodel.css">
+	<meta http-equiv="Content-Type" content="text/html; UTF-8">
+</head>
+<body>
+		<div class="topnav">
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#">Link</a>
+			<a href="#" id="Link-right">Link</a>			
+		</div>
+		<div class="header">
+			<h1>Título de la pagina</h1>
+			<p>Algún subtitulo atrapante.</p>			
+		</div>
+
+		<div class="row">
+			<div class="leftcolumn">
+				<div class="card">
+					<h2>TITULO DE LA CABECERA</h2>
+					<h5>Descripcion, 10 Ago, 2020</h5>
+
+					<div class="fakeimg" style="height: 200px;">Imagen</div>
+
+					<p>Texto de prueba</p>
+					<p>Sunt in culpa qui officia deserunt mollit anim id est laborum enim ad minim veniam, quis nostrud exercitation allamco.</p>
+					
+				</div>
+
+				<div class="card">
+					<h2>TITULO DE LA CABECERA</h2>
+					<h5>Descripcion, 9 Ago, 2020</h5>
+
+					<div class="fakeimg" style="height: 200px;">Imagen</div>
+
+					<p>Texto de prueba</p>
+					<p>Sunt in culpa qui officia deserunt mollit anim id est laborum enim ad minim veniam, quis nostrud exercitation allamco.</p>
+					
+				</div>
+			</div>
+			<div class="rightcolumn">
+				<div class="card" id="one">
+					<h2>Acerca de nosotros</h2>
+					<div class="fakeimg" style="height: 100px;">Imagen</div>
+					<p>Lorem ipsum in culpa qui officia deserunt millit anim..</p>
+				</div>
+				<div class="card" id="two">
+
+					<h3>Lo mas leido</h3>
+					<div class="fakeimg"><p>Imagen</p></div>
+					<div class="fakeimg"><p>Imagen</p></div>
+					<div class="fakeimg"><p>Imagen</p></div>					
+				</div>
+				<div class="card" id="three">
+					<h3>Seguinos</h3>
+					<p>Links.</p>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="footer">
+			<h2>Footer</h2>
+		</div>
+		
+</body>
+</html>
